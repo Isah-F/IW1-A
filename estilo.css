@@ -1,0 +1,24 @@
+body,html{
+    background-color: #fdee1d;
+}
+div{
+    border: 1px solid #00ff00;
+}
+p{
+    border: 1px solid #00ff00; 
+}
+h1{
+    border: 1px solid #00ff00;
+}
+.card{
+    background-color: deepskyblue;
+    width: 250px;
+    border: 5px solid #fdee1d;
+}
+.card-imagem{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-bottom: 100px;
+    border: 3px double #20ff00;
+}
