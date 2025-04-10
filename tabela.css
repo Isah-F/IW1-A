@@ -1,0 +1,30 @@
+body,html{
+    margin:0;
+    padding: 0;
+    height:100%;
+    background-color: C8E0F4;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+td{
+    font-size: 40px;
+    border: 2px solid rgb(80, 138, 168);
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    color: rgb(3, 25, 39);
+}
+th{
+    font-size:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(3, 25, 39);
+
+}
+table{
+    background-color: rgb(157, 209, 241);
+    padding:30px 20px;
+}
