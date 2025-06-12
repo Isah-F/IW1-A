@@ -1,0 +1,110 @@
+body { 
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    display: flex; 
+
+    justify-content: center; 
+
+    align-items: center; 
+
+    height: 100vh; 
+
+    margin: 0; 
+
+    background-color: #268ae7; 
+
+} 
+
+ 
+
+.profile-card { 
+
+    background-color: #f0f0f0; 
+
+    border-radius: 10px; 
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+    text-align: center; 
+
+    padding: 20px; 
+
+    width: 300px; 
+
+} 
+
+ 
+
+.profile-image { 
+
+    border-radius: 50%; 
+
+    width: 100px; 
+
+    height: 100px; 
+
+    object-fit: cover; 
+
+    margin-bottom: 15px; 
+
+} 
+
+ 
+
+.profile-name { 
+
+    font-size: 24px; 
+
+    color: #333; 
+
+    margin: 0; 
+
+}
+
+
+
+.profile-name2 {
+    font-size: 14px; 
+
+    color: #333; 
+
+    margin: 0;
+}
+
+
+
+.profile-name3 {
+    font-size: 14px; 
+
+    color: #333; 
+
+    margin: 0;
+
+    text-align: left;
+}
+
+ 
+
+.profile-bio1 { 
+
+    font-size: 15px; 
+
+    color: rgb(73, 73, 73); 
+
+    margin-top: 10px;
+
+} 
+
+
+.profile-bio2 { 
+
+    font-size: 15px; 
+
+    color: rgb(97, 96, 96); 
+
+    margin-top: 10px;
+
+    text-align: justify;
+
+} 
