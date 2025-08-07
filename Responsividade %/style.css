@@ -1,0 +1,6 @@
+.container-hibrid{
+    width: 80%;
+    max-width: 1200px;
+    min-width: 600px; 
+    background-color: aqua;
+}

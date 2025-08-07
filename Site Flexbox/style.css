@@ -1,0 +1,38 @@
+.container{
+    width: 90%;
+    max-width: 1200px;
+}
+
+header{
+    background-color: rgb(48, 48, 48);
+    color: #f4f4f4;
+    padding: 20px 20px;
+} 
+
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #f4f4f4;
+    color:rgb(48, 48, 48);
+}
+
+header .container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.Menu a{
+    color: #f4f4f4;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.Menu a:hover {
+    color: blueviolet;
+}
