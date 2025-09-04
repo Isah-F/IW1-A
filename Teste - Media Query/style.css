@@ -1,0 +1,14 @@
+@media (max-width: 430px) and (orientation: portrait){
+    .title{
+        color: darkmagenta;
+    }
+    .texto{
+        color: darkturquoise;
+    }
+    .sol{
+        width: 400px;
+        height: 400px;
+    }
+
+
+}

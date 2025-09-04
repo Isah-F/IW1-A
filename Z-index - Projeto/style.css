@@ -1,0 +1,21 @@
+body{
+    position: relative;
+}
+
+.quad1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: darkolivegreen;
+    z-index: 1;
+}
+
+.quad2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    top: 50px;
+    left: 50px;
+}
+
