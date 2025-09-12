@@ -1,4 +1,4 @@
-@media (max-width: 430px) and (orientation: portrait){
+@media (max-width:480px) and (orientation: portrait){
     * {
         margin: 0;
         padding: 0;
@@ -7,21 +7,21 @@
     
     .Início{
         width: 90%;
-        max-width: 1200px;
+        max-width: 480px;
         margin: auto;
     }
     
     body{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-        background-color: #f4f4f4;
-        color:rgb(48, 48, 48);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+        background-color: rgb(255, 244, 230);
+        color:rgb(32, 32, 32);
         line-height: 1.6;
     }
     
     /*Titulo+Indice+subtitulo*/
     header{
-        background-color: #90bfad;
-        color: #f4f4f4;
+        background-color: rgb(34,66,148);
+        color: white;
         padding-bottom: 30px;
         padding-top: 30px;
         padding-right: 18px;
@@ -36,20 +36,21 @@
     }
     
     header .texto-inicio{
-        background-color: #90bfad;
+        background-color: rgb(34,66,148);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
         padding-left: 24px;
         padding-bottom: 3px;
-        padding-top: 1px;
+        padding-top: 5px;
         font-size: small;
     }
     
     .titulo-menu{
-        background-color: white;
+        background-color: rgb(255, 232, 201);
+        color: (34,66,148);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
         padding-left: 24px;
         padding-bottom: 3px;
-        padding-top: 1px;
+        padding-top: 5px;
         
     }
     .menu{
@@ -57,12 +58,12 @@
         display: flex;
         justify-content: space-evenly;
         gap: 5px;
-        background-color: aqua;
+        background-color: rgb(250, 236, 218);
         font-size: 10px;
     }
     .menu li{
         padding: 5px 13px;
-        background-color: #0077cc;
+        background-color: rgb(34,66,148);
         border-radius: 5px;
     }
     .menu a{
