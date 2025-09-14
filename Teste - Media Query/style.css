@@ -1,18 +1,23 @@
-@media (max-width:480px) and (orientation: portrait){
+@media (max-width:480px){
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
       }
     
+    .quad{
+        background-color: steelblue;
+        width: 100%;
+        height: 10px;
+    }
     .Início{
         width: 90%;
-        max-width: 480px;
+        max-width: 470px;
         margin: auto;
     }
     
     body{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+        font-family: Arial, Helvetica, sans-serif; 
         background-color: rgb(255, 244, 230);
         color:rgb(32, 32, 32);
         line-height: 1.6;
@@ -22,11 +27,12 @@
     header{
         background-color: rgb(34,66,148);
         color: white;
-        padding-bottom: 30px;
-        padding-top: 30px;
-        padding-right: 18px;
-        font-size: 17px;
-        padding-left: 15px;
+        padding-bottom: 6%;
+        padding-top: 6%;
+        padding-right: 6%;
+        font-size: 107%;
+        padding-left: 3%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     } 
     
     header .Início {
@@ -38,58 +44,66 @@
     header .texto-inicio{
         background-color: rgb(34,66,148);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-        padding-left: 24px;
-        padding-bottom: 3px;
-        padding-top: 5px;
-        font-size: small;
+        padding-left: 6%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+        font-size: 74%;
     }
     
     .titulo-menu{
         background-color: rgb(255, 232, 201);
-        color: (34,66,148);
+        color: rgb(34,66,148);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-        padding-left: 24px;
-        padding-bottom: 3px;
-        padding-top: 5px;
-        
+        padding-left: 3.5%;
+        padding-bottom: 0.5%;
+        padding-top: 1%; 
     }
-    .menu{
+
+    .menu-blocos{
         list-style: none;
         display: flex;
         justify-content: space-evenly;
-        gap: 5px;
+        gap: 1%;
         background-color: rgb(250, 236, 218);
-        font-size: 10px;
+        font-size: 60%;
+        
     }
-    .menu li{
-        padding: 5px 13px;
-        background-color: rgb(34,66,148);
+    .menu-blocos li{
+        padding: 1.3% 4%;
+        background-color: steelblue;
+        font-size: 104%;
+        font-family: Arial, Helvetica, sans-serif;
         border-radius: 5px;
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
     }
-    .menu a{
+    .menu-blocos a{
         color: #f4f4f4;
         text-decoration: none;
-        transition: color 0.3s;
-    }
-    .menu a:hover {
-        color: cornflowerblue;
     }
     
     /*sobre+lugares*/
     main {
-        padding: 30px 3px;
-        font-size: 15px;
+        padding: 7% 3%;
+        font-size: 90%;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
     }
     .sobre{
-        padding-bottom: 15px;
-        padding-left: 3px;
-        padding-right: 7px;
-        text-align: justify;
+        padding-bottom: 5%;
     }
     .sobre2{
-        padding-bottom: 8px;
-        padding-left: 3px;
+        color: rgb(34,66,148);
+        padding-bottom: 2%;
+        padding-left: 1%;
         margin: 0;
+        font-size: 160%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .sobre3{
+        color: rgb(34,66,148);
+        margin: 0;
+        font-size: 160%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .topico{
         list-style: none;
@@ -98,34 +112,50 @@
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
-        padding-left: 8px;
+        padding-left: 1%;
     }
     .text-titulo{
-        font-size: 15px;
-        color: #0077cc;
+        font-size: 107%;
+        color: steelblue;
         padding-top: 2px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .titulo-padding{
+        font-size: 140%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 5%;
+        color: rgb(34,66,148);
+        padding-left: 5%;
     }
     .card {
-        background-color: white;
-        padding: 20px 5px;
-        min-width: 250px;
+        background-color: rgb(255, 248, 240);
+        padding: 10% 1%;
+        min-width: 100%;
         flex: 1;
         border-radius: 10px;
-        box-shadow: 0 5px 8px rgba(0,0,0,0.4);
-        transition: transform 0.3s;
+        box-shadow: 0 5px 8px rgba(170, 163, 126, 0.534);
     }
     
     .image-place{
-        width: 300px;
+        width: 100%;
+        position: relative;
         display: flex;
-        padding-left: 30px;
+        padding-left: 8%;
+        padding-right: 8%;
     }
-    .card:hover {
-        transform: translateY(-5px);
-    }
-    
+
     .text-padding {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
+
+    .footer {
+    background-color: rgb(34,66,148);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 75%;
+    text-align: center;
+    padding: 3%;
+    
+}
 }
