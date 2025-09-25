@@ -1,4 +1,4 @@
-@media (max-width:480px){
+@media (max-width:425px){
     * {
         margin: 0;
         padding: 0;
@@ -151,12 +151,11 @@
     }
 
     .footer {
-    background-color: rgb(34,66,148);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    font-size: 75%;
-    text-align: center;
-    padding: 3%;
-    
-}
+        background-color: rgb(34,66,148);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 75%;
+        text-align: center;
+        padding: 3%;
+    }
 }
