@@ -1,19 +1,28 @@
 
 .menu-itens{
     display: flex;
-    list-style: none;
     background-color: blueviolet;
     justify-content: flex-end;
     gap: 10px;
-    padding-right: 3%;
+    padding-right: 1%;
+    list-style: none;
+}
+.menu-itens a{
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .block{
     background-color: aqua;
-    padding: 4% 10%;
-    border-radius: 6%;
-    border: solid 1px;
-    border-color: white;
+    padding: 10px 0;
+    border-radius: 6px;
+    border: solid 1px white;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
 }
 
 .image-style{
@@ -25,7 +34,7 @@
 
 .body{
     background-color: white;
-    padding: 20px 5px;
+    padding: 2%;
     min-width: 250px;
     flex: 1;
     border: solid 2px;
@@ -38,10 +47,11 @@
 }
 
 .sobre-titulo{
-    font-size: 160%;
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.card-text{
+.divisões{
     display: flex;
-    padding: 5%;
+    padding: 2%;
 }
