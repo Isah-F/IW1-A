@@ -50,7 +50,7 @@ main{
 }
 
 .sobre-titulo{
-    font-size: 300%;
+    font-size: 250%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 0;
 }
@@ -89,8 +89,8 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Photos/Banner1.jpg");
-    background-size: 100%;           
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("Photos/Banner1.jpg");
+    background-size: cover;           
     background-position: 50% 38%;        
     background-repeat: no-repeat;
     padding: 25px;
@@ -101,17 +101,40 @@ main{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Photos/Banner2.jpg");
-    background-size: 100%;           
-    background-position: 50% 30%;        
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("Photos/Banner2.jpg");
+    background-size: cover;           
+    background-position: 50% 70%;        
     background-repeat: no-repeat;
     padding: 25px;
     margin: 0;
 }
 
+.card3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("Photos/Banner3.jpg");
+    background-size: cover;           
+    background-position: 50% 45%;        
+    background-repeat: no-repeat;
+    padding: 25px;
+    margin: 0;
+}
+
+.card4{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("Photos/Banner4.jpg");
+    background-size: cover;           
+    background-position: 50% 45%;        
+    background-repeat: no-repeat;
+    padding: 25px;
+    margin: 0;
+}
 
 .card img {
-    width: 600px;
+    width: 500px;
     max-width: 700px;
     height: auto;
     object-fit: cover;
@@ -119,7 +142,23 @@ main{
 }
 
 .card2 img {
-    width: 600px;
+    width: 500px;
+    max-width: 700px;
+    height: auto;
+    object-fit: cover;
+    padding: 5px 0px 5px 22px;
+}
+
+.card3 img {
+    width: 500px;
+    max-width: 700px;
+    height: auto;
+    object-fit: cover;
+    padding: 5px 0px 5px 22px;
+}
+
+.card4 img {
+    width: 300px;
     max-width: 700px;
     height: auto;
     object-fit: cover;
@@ -132,6 +171,7 @@ main{
     align-items: center;
     padding: 20px 0px;
     flex-direction: column;
+    gap: 10px;
 }
 
 
@@ -165,7 +205,7 @@ main{
     background-color:darkolivegreen;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
     margin-top: 40px;
-
+    border: 2px solid rgb(119, 161, 33);
 }
