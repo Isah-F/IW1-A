@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <style>
+        .carousel-inner{
+            height: 200px;
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon{
+            filter: invert(1);
+        }
+    </style>
+</head>
+<body class="p-4">
+    <section class="mb-5">
+        <h2 class="mb-3 text-primary">Sistema de título e parágrafo.</h2>
+
+        <h1>h1. Título principal</h1>
+        <h2 class="h1">h2. Com classe h1</h2>
+
+        <p class="text-muted">Texto com aparencia mais apagada (.text-muted)</p>
+        <p class="fw-bold">Texto em negrito (.fw-bold)</p>
+        <p class="fst-italic">Texto em itálico (.fst-italic)</p>
+        <p class="text-uppercase">Texto em maiusculas (.text-uppercase)</p>
+        <p class="text-center text-success"> Texto centralizado e verde (text-center) (text-success)</p>
+    
+    </section>
+    <section>
+        <h2 class="mb-3 text-primary"> Sistema de grade</h2>
+
+        <div class="container border p-3">
+            <div class="row">
+                <div class="col border p-2">.col (ocupa espaço igual)</div>
+                <div class="col border p-2">.col</div>
+                <div class="col border p-2">.col</div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-sm-12 col-md-6 col-lg-4 border p-2">
+                    .col-sm-12 .col-md-6 .col-lg-4
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-8 border p-2">
+                    .col-sm-12 .col-md-6 .col-lg-8
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <h2 class="mb-3 text-primary">Componentes e estilização</h2>
+        <button class="btn btn-primary">Primário</button>
+        <button class="btn btn-outline-secondary">Contorno</button>
+        <button class="btn btn-success">Sucesso</button>
+
+        <hr>
+
+        <div class="card">
+            <img src="https://blog.plantei.com.br/wp-content/uploads/2020/10/lirio-pink.jpg" alt="Imagem flor">
+            <div class="card-body">
+                <h5 class="card-title">Titulo do card</h5>
+                <p class="card-text">Texto de exemplo</p>
+                <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="carrosselExemplo" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrosselExemplo" data-bs-slide="0" class="active"></button>
+                <button type="button" data-bs-target="#carrosselExemplo" data-bs-slide="1"></button>
+                <button type="button" data-bs-target="#carrosselExemplo" data-bs-slide="2"></button>
+            </div>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-50 mx-auto" src="https://s2.glbimg.com/uYsIYy-rQgaW-2hI52R0mZ1cQMc=/620x455/e.glbimg.com/og/ed/f/original/2022/10/03/girassol-e-flor-entenda-casa-e-jardim.jpg" alt="girassol">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-50 mx-auto" src="https://casaflor.art.br/wp-content/uploads/2024/04/nelumbo-nucifera-flor-de-lotus1.jpg" alt="Lotús">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-50 mx-auto" src="https://s2.glbimg.com/uYsIYy-rQgaW-2hI52R0mZ1cQMc=/620x455/e.glbimg.com/og/ed/f/original/2022/10/03/girassol-e-flor-entenda-casa-e-jardim.jpg" alt="girassol">
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrosselExemplo" data-bs-slide="prev"> 
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrosselExemplo" data-bs-slide="next"> 
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+        </div>
+    </section>
+</body>
+</html>
