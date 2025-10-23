@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-color: #f8f9fa;
+      padding-top: 55px;
+    }
+    .header-fundo {
+      background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('Banner.png');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 5rem 0;
+      text-align: center;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    :target {
+      border: 2px solid #3a3a3a;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(22, 22, 22, 0.644);
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Equipes da Formula 1</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#1">Ferrari</a></li>
+          <li class="nav-item"><a class="nav-link" href="#2">Mclaren</a></li>
+          <li class="nav-item"><a class="nav-link" href="#3">Red Bull</a></li>
+          <li class="nav-item"><a class="nav-link" href="#4">Mercedes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#5">Williams</a></li>
+          <li class="nav-item"><a class="nav-link" href="#6">Alpine</a></li>
+          <li class="nav-item"><a class="nav-link" href="#7">Aston Martin</a></li>
+          <li class="nav-item"><a class="nav-link" href="#8">Haas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#9">Racing Bulls</a></li>
+          <li class="nav-item"><a class="nav-link" href="#10">Sauber</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header-fundo text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Seja bem-vindo(a)! </h1>
+      <p class="lead">Neste espaço você vai conhecer um pouco das equipes de Fórmula 1 de 2025, explorando suas trajetórias, pilotos e principais conquistas na categoria.</p>
+    </div>
+  </header>
+
+
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Equipes 2025:</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100" id="1">
+            <img src="ferrari.jpg" class="card-img-top" alt="Equipe 1">
+            <div class="card-body">
+              <h5 class="card-title">Scuderia Ferrari HP</h5>
+              <p class="card-text"><b>Sede:</b>	Maranello, Itália.<br>
+                                  <b>Fundador:</b> Enzo Ferrari.<br>
+                                  <b>Chefe de equipe:</b> Frédéric Vasseurp.<br>
+                                  <b>Pilotos atuais:</b> 16 Charles Leclerc e 44 Lewis Hamilton. <br>
+                                  <b>Campeonato Mundial de Construtores:</b> 16 títulos.<br>
+                                  <b>Campeonato Mundial de pilotos:</b> 15 títulos.<br>
+                                  <b>Campeões Mundiais:</b> Michael Schumacher, Alberto Ascari, Niki Lauda, 
+                                  Juan Manuel Fangio, Mike Hawthorn, Phil Hill, John Surtees, Jody Scheckter 
+                                  e Kimi Raikkonen.<br></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100" id="2">
+            <img src="Mclaren.webp" class="card-img-top" alt="Equipe 2">
+            <div class="card-body">
+              <h5 class="card-title">McLaren Formula 1 Team</h5>
+              <p class="card-text"><b>Sede:</b>	Woking, Reino Unido.<br>
+                                  <b>Fundador:</b> Bruce McLaren.<br>
+                                  <b>Chefe de equipe:</b> Andrea Stella.<br>
+                                  <b>Pilotos atuais:</b> 4 Lando Norris e 81 Oscar Piastri. <br>
+                                  <b>Campeonato Mundial de Construtores:</b> 10 títulos.<br>
+                                  <b>Campeonato Mundial de pilotos:</b> 12 títulos.<br>
+                                  <b>Campeões Mundiais:</b> Alain Prost, Ayrton Senna, Mika Häkkinen, 
+                                  Emerson Fittipaldi, James Hunt, Niki Lauda, Lewis Hamilton.<br></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100" id="3">
+            <img src="Redbull.avif" class="card-img-top" alt="Equipe 3">
+            <div class="card-body">
+              <h5 class="card-title">Oracle Red Bull Racing</h5>
+              <p class="card-text"><b>Sede:</b>	Milton Keynes , Buckinghamshire, Inglaterra.<br>
+                                  <b>Fundador:</b> Dietrich Mateschitz.<br>
+                                  <b>Chefe de equipe:</b> Laurent Mekies.<br>
+                                  <b>Pilotos atuais:</b> 1 Max Verstappen e 22 Yuki Tsunoda. <br>
+                                  <b>Campeonato Mundial de Construtores:</b> 6 títulos.<br>
+                                  <b>Campeonato Mundial de pilotos:</b> 8 títulos.<br>
+                                  <b>Campeões Mundiais:</b> Sebastian Vettel e Max Verstappen.<br></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100" id="4">
+            <img src="Mercedes.avif" class="card-img-top" alt="Equipe 4">
+            <div class="card-body">
+              <h5 class="card-title">Mercedes-AMG Petronas Formula One Team</h5>
+              <p class="card-text"><b>Sede:</b>	Brackley, Northamptonshire, Reino Unido.<br>
+                                  <b>Fundador:</b> Não há dados exatos do fundandor. <br>
+                                  <b>Chefe de equipe:</b> Toto Wolff.<br>
+                                  <b>Pilotos atuais:</b> 12 Andrea Kimi Antonelli e 63 George Russell. <br>
+                                  <b>Campeonato Mundial de Construtores:</b> 8 títulos.<br>
+                                  <b>Campeonato Mundial de pilotos:</b> 9 títulos.<br>
+                                  <b>Campeões Mundiais:</b> Lewis Hamilton, Juan Manuel Fangio e Nico Rosberg.<br></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100" id="5">
+            <img src="Williams.avif" class="card-img-top" alt="Equipe 5">
+            <div class="card-body">
+              <h5 class="card-title">Atlassian Williams Racing</h5>
+              <p class="card-text"><b>Sede:</b>	Grove, Oxfordshire , Inglaterra.<br>
+                                  <b>Fundadores:</b> Frank Williams e Patrick Head.<br>
+                                  <b>Chefe de equipe:</b> James Vowles.<br>
+                                  <b>Pilotos atuais:</b> 23 Alexander Albon e 55 Carlos Sainz Jr. <br>
+                                  <b>Campeonato Mundial de Construtores:</b> 9 títulos.<br>
+                                  <b>Campeonato Mundial de pilotos:</b> 7 títulos.<br>
+                                  <b>Campeões Mundiais:</b> Alan Jones, Keke Rosberg, Nelson Piquet, Nigel Mansell, Alain Prost, Damon Hill e Jacques Villeneuve.<br></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100" id="6">
+            <img src="Alpine.jpg" class="card-img-top" alt="Equipe 6">
+            <div class="card-body">
+              <h5 class="card-title">BWT Alpine F1 Team</h5>
+              <p class="card-text"><b>Sede:</b> Enstone, Oxfordshire, Reino Unido.<br>
+                                  <b>Fundador:</b> Ted Toleman. <br>
+                                  <b>Chefe de equipe:</b> Steve Nielsen.<br>
+                                  <b>Pilotos atuais:</b> 10 Pierre Gasly e 43 Franco Colapinto.<br>
+                                  <b>Campeonato Mundial de Construtores:</b> 0 títulos.<br>
+                                  <b>Campeonato Mundial de pilotos:</b> 0 títulos.<br>
+                                  <b>Campeões Mundiais:</b> Nenhum.<br></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100" id="7">
+            <img src="Aston_Martin.jpg" class="card-img-top" alt="Equipe 7">
+            <div class="card-body">
+              <h5 class="card-title">Aston Martin Aramco Formula One Team.</h5>
+              <p class="card-text"><b>Sede:</b>	Silverstone, Inglaterra, Reino Unido.<br>
+                                  <b>Fundadores:</b> 	Vijay Mallya e Michiel Mol.<br>
+                                  <b>Chefe de equipe:</b> Andy Cowell.<br>
+                                  <b>Pilotos atuais:</b> 14 Fernando Alonso e 18 Lance Stroll. <br>
+                                  <b>Campeonato Mundial de Construtores:</b> 0 títulos.<br>
+                                  <b>Campeonato Mundial de pilotos:</b> 0 títulos.<br>
+                                  <b>Campeões Mundiais:</b> Nenhum.<br></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100" id="8">
+            <img src="Haas.jpg" class="card-img-top" alt="Equipe 8">
+            <div class="card-body">
+              <h5 class="card-title">MoneyGram Haas F1 Team</h5>
+              <p class="card-text"><b>Sede:</b>	Kannapolis, Carolina do Norte,Estados Unidos.<br>
+                                  <b>Fundador:</b> Gene Haas.<br>
+                                  <b>Chefe de equipe:</b> Ayao Komatsu.<br>
+                                  <b>Pilotos atuais:</b> 31 Esteban Ocon e 87 Ollie Bearman. <br>
+                                  <b>Campeonato Mundial de Construtores:</b> 0 títulos.<br>
+                                  <b>Campeonato Mundial de pilotos:</b> 0 títulos.<br>
+                                  <b>Campeões Mundiais:</b> Nenhum.<br></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100" id="9">
+            <img src="Racing_Bulls.jpg" class="card-img-top" alt="Equipe 9">
+            <div class="card-body">
+              <h5 class="card-title">Visa Cash App Racing Bulls Formula One Team.</h5>
+              <p class="card-text"><b>Sede:</b>	Faença, Itália e em Milton Keynes, Reino Unido.<br>
+                                  <b>Fundador:</b> Dietrich Mateschitz.<br>
+                                  <b>Chefe de equipe:</b> Alan Permane.<br>
+                                  <b>Pilotos atuais:</b>6 Isack Hadjar e 30 Liam Lawson. <br>
+                                  <b>Campeonato Mundial de Construtores:</b> 0 títulos.<br>
+                                  <b>Campeonato Mundial de pilotos:</b> 0 títulos.<br>
+                                  <b>Campeões Mundiais:</b> Nenhum.<br></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100" id="10">
+            <img src="sauber.webp" class="card-img-top" alt="Equipe 10">
+            <div class="card-body">
+              <h5 class="card-title">Stake F1 Team Kick Sauber</h5>
+              <p class="card-text"><b>Sede:</b>	Hinwil, Zurique, Suíça.<br>
+                                  <b>Fundador:</b> Peter Sauber.<br>
+                                  <b>Chefe de equipe:</b> Jonathan Wheatley.<br>
+                                  <b>Pilotos atuais:</b> 5 Gabriel Bortoleto e 27 Nico Hülkenberg. <br>
+                                  <b>Campeonato Mundial de Construtores:</b> 0 títulos.<br>
+                                  <b>Campeonato Mundial de pilotos:</b> 0 títulos.<br>
+                                  <b>Campeões Mundiais:</b> Nenhum.<br></p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2025 Isabela Oliveira Fernandes. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
