@@ -133,6 +133,18 @@ main{
     margin: 0;
 }
 
+.card5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("Photos/Banner5.jpg");
+    background-size: cover;           
+    background-position: 50% 70%;        
+    background-repeat: no-repeat;
+    padding: 25px;
+    margin: 0;
+}
+
 .card img {
     width: 500px;
     max-width: 700px;
@@ -159,6 +171,14 @@ main{
 
 .card4 img {
     width: 300px;
+    max-width: 700px;
+    height: auto;
+    object-fit: cover;
+    padding: 5px 0px 5px 22px;
+}
+
+.card5 img {
+    width: 500px;
     max-width: 700px;
     height: auto;
     object-fit: cover;
