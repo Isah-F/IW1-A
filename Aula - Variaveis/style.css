@@ -1,0 +1,26 @@
+:root{
+    --var-cor-primaria:#83347c;
+    --var-cor-secundaria:#0cb14e;
+    --var-tamanho-fonte: 48px;
+}
+
+.grid {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: var(--var-cor-primaria);
+}
+
+.grid-two {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.quad1 {
+    width: 100%;
+    height: 100px;
+    background-color: var(--var-cor-secundaria);
+    font-size: var(--var-tamanho-fonte);
+}
