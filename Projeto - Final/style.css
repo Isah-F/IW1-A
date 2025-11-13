@@ -1,9 +1,8 @@
 :root{
-    --var-cor-fundo:#ffffff;
-    --var-cor-principal:#0cb14e;
-    --var-estilo-fonte:'Courier New', Courier, monospace;
-    --var-tamanho-texto: ;
-    --var-tamanho-titulo: 2.5rem;
+    --altura-foto-grande1: 400px;
+    --altura-foto-grande2: 200px;
+    --altura-foto-pequena: 100px;
+    --largura-foto-horizontal: 40%;
 }
 .carousel-item {
     position: relative;
@@ -25,8 +24,32 @@
     top: 27%;
     left: 50%;
 }
-
-p{
-    font-family: --var-estilo-fonte;
+.foto-vertical-grande1 {
+    height: var(--altura-foto-grande1);
+    object-fit: cover;
+    width: 100%;
 }
+.foto-vertical-grande2 {
+    height: var(--altura-foto-grande2);
+    object-fit: cover;
+    width: 100%;
+}
+
+.foto-vertical-pequena {
+    height: var(--altura-foto-pequena);
+    object-fit: cover; 
+    width: 100%;
+}
+
+.col-foto-horizontal {
+    flex: 0 0 var(--largura-foto-horizontal);
+    max-width: var(--largura-foto-horizontal);
+}
+
+.img-horizontal-fill {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
