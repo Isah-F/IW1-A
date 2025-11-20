@@ -1,9 +1,21 @@
 :root{
-    --altura-foto-grande1: 400px;
+    --altura-foto-grande1: 271px;
     --altura-foto-grande2: 200px;
-    --altura-foto-pequena: 100px;
-    --largura-foto-horizontal: 40%;
+    --altura-foto-pequena: 200px;
+    --altura-foto-horizontal: 270px;
+    --altura-foto-horizontal2: 300px;
+    --largura-foto-horizontal: 35%;
 }
+.text-titulo { 
+    font-size: 48px; 
+}
+.text-subtitulo { 
+    font-size: 20px; 
+}
+.text-footer { 
+    font-size: 16px; 
+}
+
 .carousel-item {
     position: relative;
 }
@@ -24,6 +36,7 @@
     top: 27%;
     left: 50%;
 }
+
 .foto-vertical-grande1 {
     height: var(--altura-foto-grande1);
     object-fit: cover;
@@ -34,13 +47,11 @@
     object-fit: cover;
     width: 100%;
 }
-
 .foto-vertical-pequena {
     height: var(--altura-foto-pequena);
     object-fit: cover; 
     width: 100%;
 }
-
 .col-foto-horizontal {
     flex: 0 0 var(--largura-foto-horizontal);
     max-width: var(--largura-foto-horizontal);
@@ -48,8 +59,66 @@
 
 .img-horizontal-fill {
     width: 100%;
-    height: 100%;
+    height: var(--altura-foto-horizontal);
     object-fit: cover;
 }
 
+.img-horizontal-fill2 {
+    width: 100%;
+    height: var(--altura-foto-horizontal2);
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faixa-pratos {
+    width: 100%;
+    background-color: rgb(126, 177, 218, 0.8); 
+    text-align: center;         
+    padding: 20px 0;            
+    border: 2px solid rgb(126, 177, 218);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: 0;       
+}
+
+.faixa-pratos h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 210%;
+    margin: 0; 
+    padding: 0;           
+}
+.fundo-faixa{
+    background-color: black;
+    padding-bottom: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    border: 2px solid black;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+@media (max-width: 480px) {
+    .text-titulo {
+        font-size: 29px !important;
+    }
+    .text-subtitulo {
+        font-size: 16px !important;
+    }
+    .text-footer {
+        font-size: 10px !important;
+    }
+    p,.card-text,.lead{
+        font-size:14px;
+    }
+    h5.card-title{
+        font-size:20px;
+    }
+}
 
