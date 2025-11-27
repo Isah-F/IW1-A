@@ -5,25 +5,16 @@
     align-items: center;
     min-height: 100vh;
 }
-
 .img-icon{
-    width: 40px;
-    height: auto;
-    border: solid 1px white;
-    border-radius: 50%;
-    cursor: pointer;
     transition: transform .2s ease;
 }
 .img-icon:hover {
     transform: scale(1.1);
 }
-
-.icon-link {
-    text-decoration:none;
-}
 .lead{
     font-size: 17px !important;
 }
+
 footer {
     display: flex;
     justify-content: center;
@@ -31,12 +22,6 @@ footer {
 }
 html, body {
     height: 100%;
-}
-body{
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Photos/Login-Fotos/Templo-Bagkok.webp);
-    background-repeat: no-repeat;
-    background-size: cover;  
-    background-position: center bottom;
 }
 main {
     flex: 1;
@@ -54,10 +39,11 @@ body {
     background-color: transparent;
     border: none !important;
 }
-
-.col-md-6 {
-    border-top-left-radius: 15px; 
-    border-bottom-left-radius: 15px;
+body{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Photos/Bankok-templo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
 }
 
 @media (max-width: 480px) {
@@ -68,7 +54,6 @@ body {
         padding: 20px;
         min-height: 100vh;
     }
-
     .card {
         margin: 0 auto;
         width: 100%;

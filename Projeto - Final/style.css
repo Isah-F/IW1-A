@@ -21,6 +21,18 @@
     text-align: justify;
     padding-top: 7px !important;
     font-size: 18px;
+    padding-right: 5px;
+}
+.card-textp,p{
+    text-align: justify;
+    font-size: 16.7px;
+    padding-right: 5px;
+}
+.card-textm,p{
+    text-align: justify;
+    font-size: 15px;
+    padding-bottom: 5px;
+
 }
 
 .carousel-item {
@@ -71,12 +83,14 @@
 .col-foto-horizontal {
     flex: 0 0 var(--largura-foto-horizontal);
     max-width: var(--largura-foto-horizontal);
+    height: 100%;
 }
 
 .img-horizontal-fill {
     width: 100%;
     height: var(--altura-foto-horizontal);
     object-fit: cover;
+    object-position: center;
 }
 
 .img-horizontal-fill2 {
