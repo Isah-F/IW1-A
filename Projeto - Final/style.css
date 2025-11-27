@@ -4,6 +4,7 @@
     --altura-foto-pequena: 200px;
     --altura-foto-horizontal: 270px;
     --altura-foto-horizontal2: 300px;
+    --altura-foto-horizontal3:400px;
     --largura-foto-horizontal: 35%;
 }
 .text-titulo { 
@@ -17,7 +18,7 @@
 }
 
 .carousel-item {
-    position: relative;
+    position: absolute;
 }
 .carousel-item::before {
     content: "";
@@ -30,6 +31,15 @@
     height: 350px;
     object-fit: cover;
     width: 100%;
+}
+.carousel-item:nth-child(1) img {
+    object-position: 10% 90%;
+}
+.carousel-item:nth-child(2) img {
+    object-position: 50% 70%;
+}
+.carousel-item:nth-child(3) img {
+    object-position: 20% 70%; 
 }
 .carousel-text {
     position: absolute;
@@ -66,6 +76,12 @@
 .img-horizontal-fill2 {
     width: 100%;
     height: var(--altura-foto-horizontal2);
+    object-fit: cover;
+}
+
+.img-horizontal-fill3 {
+    width: 100%;
+    height: var(--altura-foto-horizontal3);
     object-fit: cover;
 }
 
