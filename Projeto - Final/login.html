@@ -47,15 +47,17 @@
                             </a>
                         </div>
                         <p class=" lead mb-2 mt-0 text-center">ou use sua senha de email:</p>
-                        <form class="form-floating">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">E-mail</label>
+                        <form onsubmit="event.preventDefault(); alert('Login enviado com sucesso.');">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">E-mail</label>
+                            </div>
+                            <div class="form-floating mt-3">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Senha</label>
+                            </div>
+                            <button type="submit" class="btn btn-dark mt-3">Cadastrar-se</button>
                         </form>
-                        <form class="form-floating mt-3">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Senha</label>
-                        </form>
-                        <button type="button" class="btn btn-dark mt-3">Cadastrar-se</button>
                     </div>
                 </div>
             </div>
